@@ -187,47 +187,25 @@
     margin-right: 3.9vmin;
     align-items: center;
 }
-.normal div img{
+.normal .Head_portrait img{
     width: 12.1vmin;
     height: 6.9vmax;
     margin-left: 4.1vmin;
     margin-top: 1.7vmax;
 }
 /*普通聊天框结束------------*/
-.talk-content{
-    height: 3vmax;
-    width: 77vmin ;
-    line-height: 2.7vmax;
-}
-#Head_portrait1{
+
+.Head_portrait{
     width: 20vmin;
     height: 100%;
 }
-#Head_portrait2{
-    width: 20vmin;
-    height: 100%;
-}
-#Head_portrait3{
-    width: 20vmin;
-    height: 100%;
-}
-#Head_portrait4{
-    width: 20vmin;
-    height: 100%;
-}
-#Head_portrait5{
-    width: 20vmin;
-    height: 100%;
-}
-#Head_portrait6{
-    width: 20vmin;
-    height: 100%;
-}
-.talk div img{
+
+.talk .Head_portrait img{
     width: 12.1vmin;
     height: 6.9vmax;
     margin-left: 4.1vmin;
     margin-top: 1.7vmax;
+    border-radius: 1vmin;
 }
 .talk .chat{
     width: 77vmin;
@@ -244,18 +222,33 @@
     height: 3vmax;
     width: 77vmin ;
     line-height: 2.7vmax;
+    display: flex;
+    justify-content: space-between;
 }
 .nickname{
     height: 3vmax;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 .nickname .name{
     font-size: 2vmax;
     font-weight: bold;
 }
+.nickname .time{
+    width: 11.9vmin;
+    height: 1.9vmax;
+    font-size: 2.52vmin;
+    display: flex;
+    justify-content: flex-end;
+    color: #b2b2b2;
+}
+.mute img{
+    width: 3.9vmin;
+    height: 2.0vmax;
+}
 .chat .talk-content{
     font-size: 3vmin;
-    line-height: 100%;
     color: #7f7f7f;
 }
 #ap4{
