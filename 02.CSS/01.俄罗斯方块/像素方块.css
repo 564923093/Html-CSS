@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#kuangjia{
+    margin:10% auto;
+
+    width: 546px;
+    height: 462px;
+    /*border: 1px solid red;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+#kuangjia>div
+{
+
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+#kuangjia div div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    float: left;
+    /*display: inline-block;*/
+    /*margin: 0;*/
+}
+.tixing{
+    background-color: yellow;
+}
+.tuzixing{
+    background-color: lightgreen;
+}
+.fangkuai{
+    background-color: cornflowerblue;
+}
+.Lxing{
+    background-color: darkorange;
+}
+.Lzi{
+    background-color: plum;
+}
+.chang {
+    background-color: crimson;
+}
+.Fenti{
+    background-color: pink;
+}

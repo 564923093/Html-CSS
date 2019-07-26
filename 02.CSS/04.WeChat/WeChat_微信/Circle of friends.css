@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "方正兰亭黑";
+    src:url("wechat-ttf/FZLTXHJW.TTF");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 方正兰亭黑;
+}
+#nw{
+    width: 100vmin;
+    height: auto;
+
+}
+#zhuye{
+    width: 100vmin;
+    height: 100vmax;
+
+    display: flex;
+    flex-direction: column;
+}
+#nav{
+    width: 100vmin;
+    height: 3.9vmax;
+    /*background-color: rgb(237,237,237);*/
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+}
+#nav #yunyingshang{
+    display: flex;
+    font-size: 1vh;
+    width: 32vmin;
+    height: 3.9vmax;
+    justify-content:flex-start;
+    align-content:space-around;
+    padding-left: 3%;
+
+}
+#nav #yunyingshang #leftY{
+    display: flex;
+    flex-direction: column;
+    width: 14.3vmin;
+    height: 3.4vmax;
+    justify-content:flex-end;
+
+    padding-left: 3%;
+}
+#liantong{
+    height: 1.5vmax;
+    font-size: 2vmin;
+    /*width: auto;*/
+    /*display: inline-block;*/
+}
+#yidong{
+    /*display: inline;*/
+    /*width: auto;*/
+    height: 1.5vmax;
+    font-size: 2vmin;
+}
+#leftzhuangtai img{
+    width: 4.9vmin;
+    /*height: 2.6vmax;*/
+}
+#leftzhuangtai{
+    display: flex;
+}
+#rightzhuangtai{
+    display: flex;
+    height: 100%;
+    /*width: auto;*/
+    justify-content: flex-end;
+    /*padding: 1vmin;*/
+    align-items: center;
+}
+#rightzhuangtai img:nth-child(1) {
+    margin-right:1.1vmin;
+    height:2.8vmax;
+}
+#rightzhuangtai img:nth-child(2){
+    height: 3.8vmax;
+    margin-right:3.1vmin;
+}
+#top{
+    height: 44.4vmax;
+    width: 100vmin;
+    display: flex;
+    background-image: url("wechat-img/photo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 3.9vmax;
+}
+#top img{
+    height: 44.4vmax;
+
+    width: 100vmin;
+}
+#top #return{
+    height: 5vmax;
+    width: 100vmin;
+    display: flex;
+    justify-content: space-between;
+
+}
+#return img{
+    width: 5.9vmin;
+    height: 3.2vmax;
+    margin: 1.7vmax 4vmin;
+}
+#PEinformation{
+    height: 6.8vmax;
+    width: 100vmin;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#PEinformation div{
+    color: #fff;
+    font-size: 5vmin;
+    line-height:6.8vmax;
+}
+#PEicon img{
+    width: 16.0vmin;
+    height: 9.2vmax;
+    margin: 0 4.1vmin 3.1vmin;
+    border-radius: 1vmin;
+}
+#blank{
+    width: 100vmin;
+    height: 6.9vmax;
+    background-color: white;
+}
+.CoF{
+    height: auto;
+    width: 100vmin;
+    display: flex;
+    padding-top:1.7vmax;
+    padding-bottom: 2.6vmax;
+    border-bottom: 1px solid #d9d9d9;
+}
+.CoF .CoFicon{
+    /*margin: 1.7vmax;*/
+    height: auto;
+    width: 15vmin;
+
+}
+.CoF .CoFicon img{
+  margin-left: 3.1vmin;
+    width: 10vmin;
+    height: 5.7vmax;
+    border-radius: 1vmin;
+}
+.CoF .CoFinf{
+
+
+}
+.CoF .CoFinf .CoFname{
+    color: #586b95;
+    height: 3.2vmax;
+    width: 75vmin;
+    font-size: 4.1vmin;
+    line-height: 4.1vmin;
+}
+.CoF .CoFinf .Talk{
+    margin:1.1vmax auto;
+    font-size: 3vmin;
+}
+.CoF .CoFinf .Pho img{
+    height: 16vmax;
+    margin-top: 1vmax;
+    margin-bottom: 2.3vmax;
+}
+.CoF .CoFinf .CoFtime{
+    height: 3.0vmax;
+    width: 82.1vmin;
+    color: #808080;
+    font-size: 2.5vmin;
+    display: flex;
+    justify-content: space-between;
+    line-height:2.5vmin;
+}
+.CoF .CoFinf .CoFtime .CoFmore{
+    width: 8vmin;
+    height: 2.9vmax;
+    background-color: #f8f8f8;
+    border-radius: 1.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CoF .CoFinf .CoFtime .CoFmore div{
+    background-color: #576a94;
+    width: 1.2vmin;
+    height: 0.6vmax;
+    border-radius: 50%;
+    margin-left: 0.45vmin;
+    margin-right: 0.45vmin;
+   }

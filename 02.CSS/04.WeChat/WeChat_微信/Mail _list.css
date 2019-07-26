@@ -1,0 +1,263 @@
+/*--------全局以及顶部---------------*/
+@font-face {
+    font-family: "方正兰亭黑";
+    src:url("wechat-ttf/FZLTXHJW.TTF");
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 方正兰亭黑;
+}
+#nw{
+    width: 100vmin;
+    height: auto;
+    position: fixed;
+    top: 0;
+}
+#zhuye{
+    width: 100vmin;
+    height: 100vmax;
+
+    display: flex;
+    flex-direction: column;
+}
+#nav{
+    width: 100%;
+    height: 3.9vmax;
+    background-color: rgb(237,237,237);
+    display: flex;
+    justify-content:space-between;
+}
+
+#ap23{
+    margin-top: 10.7vmax;
+    margin-bottom: 7.9vmax;
+}
+#nav #yunyingshang{
+    display: flex;
+    font-size: 1vh;
+    width: 32vmin;
+    height: 3.9vmax;
+    justify-content:flex-start;
+    align-content:space-around;
+    padding-left: 3%;
+
+}
+#nav #yunyingshang #leftY{
+    display: flex;
+    flex-direction: column;
+    width: 14.3vmin;
+    height: 3.4vmax;
+    justify-content:flex-end;
+
+    padding-left: 3%;
+}
+#liantong{
+    height: 1.5vmax;
+    font-size: 2vmin;
+    /*width: auto;*/
+    /*display: inline-block;*/
+}
+#yidong{
+    /*display: inline;*/
+    /*width: auto;*/
+    height: 1.5vmax;
+    font-size: 2vmin;
+}
+#leftzhuangtai img{
+    width: 4.9vmin;
+    /*height: 2.6vmax;*/
+}
+#leftzhuangtai{
+    display: flex;
+}
+#rightzhuangtai{
+    display: flex;
+    height: 100%;
+    /*width: auto;*/
+    justify-content: flex-end;
+    /*padding: 1vmin;*/
+    align-items: center;
+}
+#rightzhuangtai img:nth-child(1) {
+    margin-right:1.1vmin;
+    height:2.8vmax;
+}
+#rightzhuangtai img:nth-child(2){
+    height: 3.8vmax;
+    margin-right:3.1vmin;
+}
+#apppart1{
+    height: 6.9vmax;
+    width: 100%;
+    background-color: rgb(237,237,237);
+    /*padding-left: 29.4px;*/
+    display: flex;
+    justify-content:space-between;
+
+}
+#apppart1 #wechat{
+    font-size: 4.5vmin;
+    display: inline-block;
+    height: 100%;
+    line-height: 6.69vmax;
+    font-weight: bold;
+    margin-left:4vmin;
+}
+#righticon{
+    width: 20vmin;
+    height: 6.69vmax;
+    display: flex;
+    margin-right: 4vmin;
+    align-content: center;
+    justify-content: space-around;
+    padding-top: 1.3vmax;
+}
+#righticon #sousuo{
+    width:8vmin;
+    height: 4.9vmax;
+    background-image: url("wechat-img/搜索.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#righticon #tianjia{
+    width:7vmin;
+    height: 4.9vmax;
+    background-image: url("wechat-img/添加.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/*--------全局以及顶部结束---------------*/
+/*--------中间部分---------------*/
+#mid{
+    width: 100vmin;
+    height: auto;
+    margin-top: 10.6vmax;
+    margin-bottom: 7.9vmax;
+}
+#top{
+    height: 31.4vmax;
+    width: 100vmin;
+    display: flex;
+    flex-direction: column;
+}
+.selectox{
+    height: 7.9vmax;
+    width: 100vmin;
+    display: flex;
+
+}
+.seicon{
+    width: 18.1vmin;
+    height: 7.9vmax;
+}
+.selectox:nth-child(1) .seicon img{
+    /*color: #08c261;*/
+    /*background-color: #08c261;*/
+}
+.selectox:nth-child(2) .seicon img{
+    color: #08c261;
+    background-color: #08c261;
+}
+.selectox:nth-child(3) .seicon img{
+    color: #2781d7;
+    background-color: #2781d7;
+}
+.selectox:nth-child(4) .seicon img{
+    color: #2781d7;
+    background-color: #2781d7;
+}
+
+.seicon img{
+    width: 10.1vmin;
+    border-radius: 1vmax;
+    margin: 1.1vmax 4.1vmin;
+}
+.setext{
+    width: 81.9vmin;
+    height: 7.9vmax;
+    border-bottom:1px solid #d9d9d9;
+    line-height: 7.9vmax;
+    font-size: 3.5vmin;
+    font-weight: bold;
+}
+.wordnav{
+    height: 4.6vmax;
+    width: 100vmin;
+    background-color: #ededed;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.wordnav div{
+    margin-left: 4.6vmin;
+    line-height: 4.6vmax;
+    font-size: 3vmin;
+    color: #888888;
+}
+
+#daohang{
+    width: 3.1vmin;
+    height: 72.7vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+    right: 1.4vmin;
+    top: 15vmax;
+    font-size: 2.0vmin;
+}
+
+/*--------中间部分结束---------------*/
+
+
+/*--------底部---------------*/
+a{
+    text-decoration: none;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+#ap4{
+    width: 100vmin;
+    height: 7.9vmax;
+    background-color: #f7f7f7;
+    border-top: 1.1px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+#ap4 .btmicon{
+    width: 14.4vmin;
+    height: 7.9vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.talkicon1{
+    width: 6.8vmin;
+    height: 3.8vmax;
+    margin: 0 auto;
+
+}
+.talkicon1 img{
+    width: 6.8vmin;
+    height: 3.8vmax;
+}
+.talkname1{
+    color: #08c261;
+    font-size: 2.5vmin;
+    margin-top: 0.7vmin;
+    text-align: center;
+}
+.talkname {
+    font-size: 2.5vmin;
+    margin-top: 0.5vmin;
+    text-align: center;
+}
+/*--------底部结束---------------*/
